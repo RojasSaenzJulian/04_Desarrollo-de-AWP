@@ -1,0 +1,8 @@
+https://www.w3schools.com/html/default.asp
+https://developer.mozilla.org/es/docs/Learn
+
+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g
+
+SHFIT+CTRL+ abajo (duplicar)
+marcar texto y ctrl+shift+c (comentar)
+CTRL+H (para reemplazar similares)

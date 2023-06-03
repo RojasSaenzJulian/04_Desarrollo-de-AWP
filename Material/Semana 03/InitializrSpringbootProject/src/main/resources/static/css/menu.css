@@ -1,0 +1,107 @@
+/*selector universal*/
+*{
+    margin: 0;
+    box-sizing: border-box;/*quita todos los bordes*/
+}
+body{
+    background-color: #8dd2f2;
+    font-family:sans-serif;
+    padding: 60px 20px 0px;
+}
+.header{ /*listo*/
+    background-color: #53beeb;
+    position: fixed; /*fija*/
+    top: 0; /*El header (h1) va a comenzar en la pura esquina*/
+    left:0;/*El header (h1) va a comenzar en la pura esquina*/
+    height:15%; /*de arriba hacia abajo*/
+    width:100% /*de izquierda a derecha*/
+}
+.titulo{
+    font-family:minecraft;
+    color: #1e2b31;
+    text-align: center;
+    letter-spacing:1px;
+}
+.nav{
+    display:flex; /*despliega hacia el lado*/
+    justify-content: space-between; /*espaci oentre ellos*/
+    max-width:992px;
+    margin:0 11%; /*LO VA A CENTRAS*/
+}
+/*todo lo que sea nav-link se le van a cambiar esos atributos*/
+.nav-link{
+    color: white;
+    text-decoration: none; /*quita el color de las anclas subrayado*/
+
+}
+/*Todo esto se le va a aplicar al logo Techshop*/
+.logo{
+
+    padding:0;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;/*se acomodaron en vertical*/
+    margin-right: 40px; /*para separarse del margen*/
+    list-style: none;/*quita el tipo de lista, ya sea ordenada o a,b,c..*/
+}
+/*separar los items del menú*/
+.nav-menu-item{
+    font-size: 17px;
+    margin: 0 7px; /*separacion entre opciones*/
+    line-height: 105px; /*a la altura que va a estar, en este caso 80 para que esté alineado a el logo*/
+    letter-spacing:1px;
+    width:max-content;
+    
+}
+.nav-menu-link{
+    padding: 10px 12px;
+    border-radius: 8px;/*redondea los bordes*/
+
+}
+.nav-menu-link:hover{
+    background-color: #34abdb;
+    /*font-size:20px;   Hace que se agrande cuadno se selecciones, el problema es que mueve todo*/
+    transition: 0.5s;
+
+
+}
+#contenidoMenu{
+    padding:10px 20px;
+    position: fixed;
+    top: 17%; /*El header (h1) va a comenzar en la pura esquina*/
+    left:3%;
+    width: 95%;
+    background-size: cover;
+
+    bottom:7%;
+}
+.footer{
+    position: fixed;
+    bottom:0;/*Para que se coloque hasta abajo*/
+    height: 7%;
+    left:0;
+    background-image:url(footer.png);
+    color:white;
+    text-align: center;
+    padding-top: 18px; /*separación del texto con el fondo del footer*/
+    font-family:minecraft;
+    letter-spacing:1px;
+    width:100%;/*largo del fondo*/
+}
+.form{
+    
+    display: flex;
+    font-family:letra1;
+
+
+               
+ }
+ .colum1{
+     text-align: center; 
+     
+ }
+ .colum2{
+    text-align: center; 
+    
+ }

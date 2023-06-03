@@ -1,0 +1,17 @@
+.imagenesI2{
+    margin-right: 100px;
+ 
+
+}
+.imgDesc{
+    justify-content: right;
+    display: flex;
+                justify-content: center;
+                margin-right: 50px;
+}
+.imgMenu{
+    justify-content: center;
+    display: flex;
+
+                margin-top: 0px;
+}

@@ -1,0 +1,80 @@
+<html lang="es">
+    <head>
+
+        <title>Minecraft</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Prática 02 del Curso de Desarrollo de AWP">
+        <meta name="keywords" content="html5, css3, minecraft">
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="fuentes/fuentes.css" rel="stylesheet" type="text/css"/>
+        <link href="css/imagenes.css" rel="stylesheet" type="text/css"/>
+        <style>
+             .imagenesI{
+                display: flex;
+                justify-content: center;
+            }
+            .p2{
+                text-align: center;
+                padding: 27px;
+                font-size: 15px;               
+            }
+        </style>
+    </head>
+    <audio   id="fondo" src="musica/fondo.mp3" ></audio>
+    <body onclick="document.getElementById('fondo').play()" 
+                             style="cursor: pointer">       
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link"><img src="imagenes/Minecraft-logo.png"                                                               
+                                                                width="300"
+                                                                alt="logo"/></a>
+                <div class="opcionesMenu">
+                    <ul class="nav-menu">
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="enemigos.html">Enemigos</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="animales.html">Animales</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="musica.html">Música</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="paisajes.html">Paisajes</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="bloques.html">Bloques</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="formulario.html">Formulario</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="descarga.html">Descarga</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section id="contenidoMenu">
+            <h1 class='titulo'>¡Bienvenido el foro de Minecraft!</h1><br><br>
+            <div class='p'>
+                <p>En este foro podrás disfrutar y votar por los top 3 semanales de los personajes y bloques favoritos de la comunidad de Minecraft, también 
+                encontrarás un apartado para descargar el juego si aún no lo tienes.</p>
+                
+                <div class="imagenesI">
+                <article><figure>
+                        <audio id="cerdo" src="musica/cerdo.mp3"></audio>
+                        <img class="imgMenu" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjQxZTI2Nzk0YmY1NWExNWQ2NzI2NzFhZDI1YmI0M2QyOWJmOWJjMyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/r8GMmlV8qGrfZ3txfX/giphy.gif" 
+             
+                             alt="Menu" width="510"/>
+       
+                    </figure></article>
+                
+                </div>
+                 <p class="p2" >Para mirar el contenido de la página, debes seleccionar cualquiera de las opciones que se encuentran en el menú superior y dar click.
+                </p>
+
+            </div>
+           
+            
+            
+
+
+
+           
+        </section>
+        
+        <footer class="footer">Práctica 02 - RSJS</footer>
+
+    </body>
+</html>
+

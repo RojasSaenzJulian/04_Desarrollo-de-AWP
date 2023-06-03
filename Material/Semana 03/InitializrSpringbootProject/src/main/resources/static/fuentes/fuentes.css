@@ -1,0 +1,17 @@
+@font-face{
+    font-family:minecraft;
+    src: url("Minecraft.ttf");
+        
+}
+@font-face{
+    font-family:letra1;
+    src: url("letra1.otf");
+        
+}
+.opcionesMenu{
+    font-family:minecraft;
+    
+}
+.p{
+    font-family:letra1;
+}

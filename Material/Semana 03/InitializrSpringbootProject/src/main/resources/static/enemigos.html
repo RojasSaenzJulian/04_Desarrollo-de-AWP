@@ -1,0 +1,92 @@
+<html lang="es">
+    <head>
+
+        <title>Minecraft</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Prática 02 del Curso de Desarrollo de AWP">
+        <meta name="keywords" content="html5, css3, minecraft">
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="fuentes/fuentes.css" rel="stylesheet" type="text/css"/>
+        <link href="css/imagenes.css" rel="stylesheet" type="text/css"/>
+        <style>
+            .imagenesI{
+                display: flex;
+                justify-content: center;
+            }
+            .estiloV{
+                font-family: letra1;
+                font-size: 90%;
+            }
+        </style>
+    </head> 
+    <audio   id="fondo" src="musica/fondo.mp3" ></audio>
+    <body onclick="document.getElementById('fondo').play()" 
+                             style="cursor: pointer">   
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link"><img src="imagenes/Minecraft-logo.png"                                                               
+                                                                width="300"
+                                                                alt="logo"/></a>
+                <div class="opcionesMenu">
+                    <ul class="nav-menu">
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="enemigos.html">Enemigos</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="animales.html">Animales</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="musica.html">Música</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="paisajes.html">Paisajes</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="bloques.html">Bloques</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="formulario.html">Formulario</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="descarga.html">Descarga</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section id="contenidoMenu">
+            <!--Encabezado o "H"eading--> 
+
+            <h1 class='titulo'>Top Enemigos favoritos del Minecraft</h1><br><br>
+            <div class='p'>
+                <p>Los jugadores suelen enfrentarse día tras día con distintos tipos de <strong>enemigos</strong> los cuales pueden infligir poco o mucho daño.
+                    Según los resultados de los formularios estos son los 3 enemigos favoritos de la comunidad:</p><br><br>
+
+            </div>
+            <div class="imagenesI">
+ 
+                <article><figure>
+                        <h3 class='titulo'>Creeper</h3><audio id="creeper" src="musica/creeper.mp3"></audio>
+                        <img class="imagenesI2"  
+                             src="imagenes/creeper.png"
+                             width="90"
+                             alt="" onclick="document.getElementById('creeper').play()" 
+                             style="cursor: pointer"/><br><br>
+                    </figure></article>
+                
+                <article><figure>
+                        <h3 class='titulo'>Esqueleto</h3><audio id="esqueleto" src="musica/esqueleto.mp3"></audio>
+                        <img class="imagenesI2" src="imagenes/esqueleto.png"
+                             width="107" alt="" onclick="document.getElementById('esqueleto').play()" 
+                             style="cursor: pointer"/><br><br>
+                    </figure></article>
+
+                <article><figure>
+                        <h3 class='titulo'>Zombie</h3><audio id="zombie" src="musica/zombie.mp3"></audio>
+                        <img class="imagenesI2" src="imagenes/zombie.png"
+                             width="110" alt="" onclick="document.getElementById('zombie').play()" 
+                             style="cursor: pointer"/>
+                    </figure></article>
+
+
+            </div><br>
+            <h6 class="estiloV" style="text-align: center">¡Haz <strong>Click</strong> en los mounstros para escuchar cómo suenan!</h6>
+
+
+
+        </section>
+        <footer class="footer">Práctica 02 - RSJS</footer>
+
+    </body>
+</html>
+
+

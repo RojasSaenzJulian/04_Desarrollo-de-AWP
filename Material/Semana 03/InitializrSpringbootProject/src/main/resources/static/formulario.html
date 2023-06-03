@@ -1,0 +1,88 @@
+<html lang="es">
+    <head>
+
+        <title>Minecraft</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Prática 02 del Curso de Desarrollo de AWP">
+        <meta name="keywords" content="html5, css3, minecraft">
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="fuentes/fuentes.css" rel="stylesheet" type="text/css"/>
+        <link href="css/musica.css" rel="stylesheet" type="text/css"/>
+        <style>
+            .video{
+                font-family:minecraft;
+                display: flex;
+                justify-content: center;
+                margin-right: 50px;
+            }
+            .estiloV{
+                font-family: letra1;
+                font-size: 80%;
+            }
+            
+        </style>
+    </head> 
+    <audio   id="fondo" src="musica/fondo.mp3" ></audio>
+    <body onclick="document.getElementById('fondo').play()" 
+                             style="cursor: pointer">   
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link"><img src="imagenes/Minecraft-logo.png"                                                               
+                                                                width="300"
+                                                                alt="logo"/></a>
+                <div class="opcionesMenu">
+                    <ul class="nav-menu">
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="enemigos.html">Enemigos</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="animales.html">Animales</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="musica.html">Música</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="paisajes.html">Paisajes</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="bloques.html">Bloques</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="formulario.html">Formulario</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="descarga.html">Descarga</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section id="contenidoMenu">
+            <!--Encabezado o "H"eading--> 
+
+            <h1 class='titulo'>¿Quienes formaran parte del proximo top 3?</h1><br><br>
+            <div class='p'>
+                <p>Si quieres ver a tu mob/bloque favorito la próxima semana, llena el siguiente formulario... ¡Serán seleccionados los 3
+                más votados en cada categoría!</p><br>
+
+            </div >
+            <section>
+         
+            <article>
+
+                <form action="#">
+                    <div style="font-family: letra1" class="colum1">
+                        <label>Animal </label><input type="text" id="Animal" placeholder="¡Digite su animal favorito!" size="30"><br><br>
+                        <label>Enemigo </label><input type="text" id="Enemigo" placeholder="¡Digite su enemigo favorito!" size="30"><br><br>
+                        <label>Bloque </label><input type="text" id="Bloque" placeholder="¡Digite su bloque favorito!" size="30"><br><br>
+                    </div><br>
+                    
+                    <div class="colum2">
+                        <h4 style="align-content: center;" class='titulo'>Próximamente tendremos una sección para los
+                            jugadores más artísticos, sube tu dibujo para que pueda salir:   </h4><br><br>
+                        <input style="align-content: center" type="file" name="file" accept="image/png,image/jpeg"><br><br>
+                        
+                    <label style="font-family: letra1">Envíanos un correo demostrandonos tu apoyo de manera monetaria :) </label>
+                    <a href="subject=Apoyo por favor" target=" _black">Enviar correo</a><br> <br> 
+                    <input  style="size: B4" type="submit" value="Enviar"><br/>
+                    </div>
+
+                    
+                </form>
+
+
+            </article>
+        </section>
+        <footer class="footer">Práctica 02 - RSJS</footer>
+
+    </body>
+</html>
